@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Los Fertres | Nosotros</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+<body> 
+    <!--Para incluir un fondo en una página web necesitamos utilizar el atributo background en la etiqueta <BODY>, al que le asignamos el nombre del archivo que
+    deseamos utilizar como fondo. -->
+    <main>
+      
+        <!--representa el contenido principal del <body> de un documento o aplicación. El área principal del contenido consiste en el contenido que está directamente 
+        relacionado, o se expande sobre el tema central de un documento o la funcionalidad central de una aplicación. -->
+      
+        <header> 
+          
+            <!-- representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, así como también un logo, un formulario 
+            de búsqueda, un nombre de autor y otros componentes.-->
+          
+            <picture>
+              
+                <!--s un contenedor usado para especificar múltiples elementos <source> y un elemento <img> contenido en él para proveer versiones de una imagen para 
+                diferentes escenarios de dispositivos. Si no hay coincidencias con los elementos <source>, el archivo especificado en los atributos src del elemento
+                 <img> es utilizado.-->
+              
+                <source 
+                    media="(min-width: 400px)"
+                    srcset="assets/images/los-fertres-logo.png"
+                >
+                <source 
+                    media="(min-width: 800px)" 
+                    srcset="assets/images/los-fertres-logo.png"
+                >
+                <img 
+                    src="assets/images/los-fertres-logo.png" 
+                    alt="Los Fertres"
+                >
+            </picture>
+            <nav class="menu">
+                <!--representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros 
+                documentos. -->
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Procesos</a>
+                <a href="#">Productos</a>
+                <a href="#">Contacto</a>
+            </nav>
+            <button>English</button>
+            <h1>Nosotros</h1>
+        </header>
+    </main>
+</body>
+</html>
